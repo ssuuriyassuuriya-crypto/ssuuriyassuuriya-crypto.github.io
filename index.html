@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>S. Suuriya | Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b0f19;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 30px;
+    }
+
+    .hero {
+      max-width: 800px;
+    }
+
+    .hero h1 {
+      font-size: 55px;
+      margin-bottom: 10px;
+    }
+
+    .hero h1 span {
+      color: #00d9ff;
+    }
+
+    .hero h2 {
+      font-size: 25px;
+      font-weight: normal;
+      margin-bottom: 20px;
+      color: #c7c7c7;
+    }
+
+    .hero p {
+      color: #aaa;
+      margin-bottom: 30px;
+      font-size: 18px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      margin: 8px;
+      border-radius: 25px;
+      background: #00d9ff;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      opacity: 0.8;
+    }
+
+    section {
+      padding: 80px 10%;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 35px;
+      margin-bottom: 40px;
+      color: #00d9ff;
+    }
+
+    .about {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+      color: #ccc;
+      font-size: 18px;
+    }
+
+    .skills,
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #151b29;
+      padding: 25px;
+      border-radius: 15px;
+      border: 1px solid #252d40;
+    }
+
+    .card h3 {
+      color: #00d9ff;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #bbb;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #070a10;
+      color: #888;
+    }
+
+    a {
+      color: #00d9ff;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 40px;
+      }
+
+      .hero h2 {
+        font-size: 20px;
+      }
+
+      section {
+        padding: 60px 7%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header id="home">
+    <div class="hero">
+      <h1>Hi, I'm <span>S. Suuriya</span></h1>
+
+      <h2>ECE Student | Developer | Tech Enthusiast</h2>
+
+      <p>
+        I am passionate about technology, software development,
+        AI projects and solving real-world problems.
+      </p>
+
+      <a href="#projects" class="btn">View My Projects</a>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+  </header>
+
+
+  <section id="about">
+    <h2>About Me</h2>
+
+    <div class="about">
+      <p>
+        I am an Electronics and Communication Engineering student
+        interested in software development, artificial intelligence,
+        web development and innovative technology.
+      </p>
+
+      <br>
+
+      <p>
+        I enjoy learning new technologies and building projects
+        that solve practical problems.
+      </p>
+    </div>
+  </section>
+
+
+  <section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills">
+
+      <div class="card">
+        <h3>Programming</h3>
+        <p>C, C++, Python, JavaScript</p>
+      </div>
+
+      <div class="card">
+        <h3>Web Development</h3>
+        <p>HTML, CSS, JavaScript</p>
+      </div>
+
+      <div class="card">
+        <h3>AI & Technology</h3>
+        <p>AI tools, ChatGPT and AI-based project development</p>
+      </div>
+
+      <div class="card">
+        <h3>Tools</h3>
+        <p>GitHub, VS Code, Canva</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="projects">
+
+      <div class="card">
+        <h3>VisionGuard AI</h3>
+        <p>
+          An AI-based project focused on technology and
+          real-world problem solving.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>PulseRoute-AI</h3>
+        <p>
+          A Python-based AI project developed to explore
+          intelligent solutions.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>EcoTrack AI</h3>
+        <p>
+          An AI-based waste monitoring concept designed to
+          help identify garbage-filled areas and support
+          better waste management.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+
+    <div class="contact">
+      <p>Let's connect and build something useful.</p>
+
+      <br>
+
+      <a href="https://github.com/ssuuriyassuuriya-crypto"
+         target="_blank">
+        GitHub Profile
+      </a>
+    </div>
+  </section>
+
+
+  <footer>
+    <p>© 2026 S. Suuriya | Personal Portfolio</p>
+  </footer>
+
+</body>
+</html>
